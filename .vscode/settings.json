@@ -1,6 +1,13 @@
 {
     "cSpell.words": [
+        "codelyzer",
+        "eofline",
         "filme",
         "filmes"
+    ],
+    "cSpell.ignoreWords": [
+        "detalhes",
+        "onespace",
+        "personagens"
     ]
 }

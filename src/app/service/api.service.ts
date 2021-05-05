@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
-import { Filmes } from "./filmes.model";
-import { map } from "rxjs/operators";
-import { EMPTY, Observable } from "rxjs";
-import { HttpClient } from "@angular/common/http";
+import { Filmes } from './filmes.model';
+import {  Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ApiService {
 
+  // tslint:disable-next-line: typedef-whitespace
   constructor(private http : HttpClient) { }
 
   read(): Observable<any> {

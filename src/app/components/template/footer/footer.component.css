@@ -3,6 +3,9 @@
   bottom: 0;
   display: flex;
   justify-content: flex-end;
+  height: 5vh;
+  background-color: #673ab7;
+  color: white;
 }
 
 .footer > span {

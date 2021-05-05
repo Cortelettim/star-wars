@@ -1,5 +1,5 @@
 <div class='filmes-container '>
-  <mat-card class="card" *ngFor='let filme of filmes'>
+  <mat-card class="card mat-elevation-z4" *ngFor='let filme of filmes'>
     <mat-card-header>
       <mat-card-title>
         {{filme.title}}
@@ -10,8 +10,8 @@
 
     </mat-card-header>
     <img mat-card-image src="assets/starwars.png" alt="Star Wars Logo">
-    <mat-card-actions class="buttons">
-      <button mat-button >Ver Detalhes</button>
+    <mat-card-actions  >
+      <button mat-raised-button color="primary" >Ver Detalhes</button>
     </mat-card-actions>
   </mat-card>
 </div>
