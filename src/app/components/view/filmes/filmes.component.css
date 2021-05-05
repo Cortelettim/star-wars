@@ -1,0 +1,14 @@
+.filmes-container {
+  display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-template-rows: repeat(2, 400px);
+  background-color: black;
+
+}
+.card {
+  top: 10px;
+  justify-self: center;
+  max-width: 300px;
+  max-height: 300px;
+}
