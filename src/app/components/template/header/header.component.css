@@ -1,9 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  top: 0;
 
-  height: 10vh;
 }
 
 .header a {
@@ -11,7 +9,7 @@
   align-items: center;
   text-decoration: none;
   color: white;
-
+  margin-right: 10px;
 }
 .header i {
  padding-right: 5px;
