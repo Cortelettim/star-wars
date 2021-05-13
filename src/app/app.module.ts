@@ -12,6 +12,10 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { FilmesComponent } from './components/view/filmes/filmes.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PersonagensComponent } from './components/view/personagens/personagens.component';
+import { FilmesDetalhesComponent } from './components/view/filmes-detalhes/filmes-detalhes.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,9 @@ import { PersonagensComponent } from './components/view/personagens/personagens.
     HeaderComponent,
     FooterComponent,
     FilmesComponent,
-    PersonagensComponent
+    PersonagensComponent,
+    FilmesDetalhesComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,10 @@ import { PersonagensComponent } from './components/view/personagens/personagens.
     MatToolbarModule,
     MatCardModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
